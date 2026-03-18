@@ -8,7 +8,7 @@ declare module "gsap/ScrollTrigger" {
   export default ScrollTrigger;
 }
 
-declare module "gsap-trial/SplitText" {
+declare module "gsap/SplitText" {
   // Minimal typings for GSAP SplitText plugin.
   // The plugin accepts selectors or elements (or arrays thereof) and always returns
   // tombed arrays for chars/words/lines.
@@ -30,7 +30,7 @@ declare module "gsap-trial/SplitText" {
   export default SplitText;
 }
 
-declare module "gsap-trial/ScrollSmoother" {
+declare module "gsap/ScrollSmoother" {
   import { Plugin } from "gsap";
   const ScrollSmoother: Plugin;
   export { ScrollSmoother };
